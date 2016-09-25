@@ -4,7 +4,7 @@
 
 void jetcluster(){
   
-  TFile *f= new TFile("/home/cmsumd/Desktop/exercise/Jetcluster/for_jet_clustering_exercise.root");
+  TFile *f= new TFile("for_jet_clustering_exercise.root");
   TTree *tree = (TTree*)f->Get("tree");
   
   vector<float> *pt, *eta, *phi, *mass;
